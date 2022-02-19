@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+h1{
+    color: rgb(11, 12, 11);
+}
+
+.container{
+    line-height: 40px;
+}
+
+#imgchange{
+    height: 200px;
+    width: 300px;
+    border-radius: 100px;
+
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(34, 65, 165)
+}
+
+#nameid{
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    outline: none;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(15, 15, 26);
+    background-color: lightcoral;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.25);
+    transition: .8s transform ease-in-out;
+    color: rgb(244, 244, 245);
+}
